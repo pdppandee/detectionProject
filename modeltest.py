@@ -11,7 +11,7 @@ import tensorflow as tf
 
 #load model
 
-model = tf.keras.models.load_model('models/detectmodel4.h5')
+model = tf.keras.models.load_model('models/detectmodel1.h5')
 
 # Check its architecture
 print(model.summary())
