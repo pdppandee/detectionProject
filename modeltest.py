@@ -11,7 +11,7 @@ import tensorflow as tf
 
 #load model
 
-model = tf.keras.models.load_model('models/detectmodel1.h5')
+model = tf.keras.models.load_model('models/detectmodel17.h5')
 
 # Check its architecture
 print(model.summary())
@@ -20,7 +20,7 @@ classes = ['ok','ng']
 
 
 
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(1) #chk camera device
 
 while cap.isOpened():
     ret, frame = cap.read()
